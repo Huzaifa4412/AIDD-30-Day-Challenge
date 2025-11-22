@@ -1,0 +1,14 @@
+[project]
+name = "personal-chatbot"
+version = "0.1.0"
+description = "A personal chatbot with memory using Chainlit and openai-agents SDK with Gemini."
+requires-python = ">=3.8"
+dependencies = [
+    "chainlit",
+    "openai-agents",
+    "python-dotenv", # To load environment variables
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
