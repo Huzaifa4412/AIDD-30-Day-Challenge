@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "SlashCommand(/sp.phr Create calculator expression specification --stage spec --feature calculator-expression)",
+      "Bash(.specify/scripts/powershell/setup-plan.ps1:*)",
+      "SlashCommand(/sp.phr Create calculator expression plan --stage plan --feature calculator-expression)",
+      "Bash(.specify/scripts/bash/create-phr.sh:*)",
+      "Bash(python:*)",
+      "SlashCommand(/sp.phr Implement calculator expression --stage green --feature calculator-expression)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
