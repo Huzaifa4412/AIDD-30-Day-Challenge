@@ -1,5 +1,5 @@
 def main():
-    print("Hello from aidd-30-day-challenge!")
+    print("Hello from task-9-and-10!")
 
 
 if __name__ == "__main__":
